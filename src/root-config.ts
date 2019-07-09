@@ -11,4 +11,12 @@ registerApplication(
   activityFunctions.isPocActive
 );
 
+registerApplication(
+  "@ampath/poc-navigation",
+  () => System.import("@ampath/poc-navigation"),
+  activityFunctions.isPocNavBarAppActive
+);
+
+// console.warn('OVERIDING ROUTE CONFIG');
+
 start();

@@ -5,3 +5,9 @@ export function isPocActive(location: Location): boolean {
   // are added.
   return true;
 }
+
+export function isPocNavBarAppActive(location: Location): boolean {
+  // To start out, POC will always be mounted. This will change as more applications
+  // are added.
+  return true;
+}
