@@ -4,9 +4,11 @@ import { registerAllCoreApplications } from "@openmrs/esm-root-config";
 import { registerAmpathApplications } from "./ampath-root-config";
 import { provide } from "@openmrs/esm-module-config";
 //@ts-ignore
-import ampathModuleConfig from "./ampath-module.config.json";
+import ampathLoginConfig from "./configs/login.config.json";
+import ampathPatientChartConfig from "./configs/patient-chart.config.json";
 
-provide(ampathModuleConfig);
+provide(ampathLoginConfig);
+provide(ampathPatientChartConfig);
 registerAllCoreApplications();
 registerAmpathApplications();
 
