@@ -1,0 +1,23 @@
+{
+  "@openmrs/esm-patient-chart": {
+    "defaultTabIndex": 0,
+    "widgets": [
+      "summaries",
+      "results",
+      "orders",
+      "encounters",
+      "conditions",
+      "programs",
+      "allergies",
+      "hiv-dashboard"
+    ],
+    "widgetDefinitions": [
+      {
+        "name": "hiv-dashboard",
+        "label": "HIV",
+        "esModule": "@ampath/esm-patient-chart-widgets",
+        "path": "/hiv-dashboard"
+      }
+    ]
+  }
+}
