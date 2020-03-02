@@ -1,22 +1,79 @@
 {
   "@openmrs/esm-patient-chart": {
-    "defaultTabIndex": 0,
-    "widgets": [
-      "summaries",
-      "results",
-      "orders",
-      "encounters",
-      "conditions",
-      "programs",
-      "allergies",
-      "hiv-dashboard"
+    "primaryNavBar": [
+      {
+        "label": "Summary",
+        "path": "/summary",
+        "view": "summaryDashboard"
+      },
+      {
+        "label": "Results",
+        "path": "/results",
+        "view": "resultsOverviewDashboard"
+      },
+      {
+        "label": "Orders",
+        "path": "/orders",
+        "view": "ordersOverviewDashboard"
+      },
+      {
+        "label": "Encounters",
+        "path": "/encounters",
+        "view": "encountersOverviewDashboard"
+      },
+      {
+        "label": "Conditions",
+        "path": "/conditions",
+        "view": "conditionsOverview"
+      },
+      {
+        "label": "Programs",
+        "path": "/programs",
+        "view": "programsOverviewDashboard"
+      },
+      {
+        "label": "Allergies",
+        "path": "/allergies",
+        "view": "allergiesOverviewDashboard"
+      },
+      {
+        "label": "Appointments",
+        "path": "/appointments",
+        "view": "appointmentsOverviewDashboard"
+      },
+      {
+        "label": "HIV",
+        "path": "/hiv-dashboard",
+        "view": "hiv-dashboard"
+      }
     ],
-    "widgetDefinitions": [
+    "dashboardDefinitions": [
       {
         "name": "hiv-dashboard",
-        "label": "HIV",
-        "esModule": "@ampath/esm-patient-chart-widgets",
-        "path": "/hiv-dashboard"
+        "title": "HIV",
+        "layout": {
+          "columns": 4
+        },
+        "widgets": [
+          {
+            "name": "todaysVisitWidget",
+            "label": "Visit",
+            "esModule": "@ampath/esm-patient-chart-widgets",
+            "path": "/hiv-visit",
+            "layout": {
+              "columnSpan": 2
+            }
+          },
+          {
+            "name": "formsListWidget",
+            "label": "Forms",
+            "esModule": "@ampath/esm-patient-chart-widgets",
+            "path": "/hiv-forms",
+            "layout": {
+              "columnSpan": 2
+            }
+          }
+        ]
       }
     ]
   }
