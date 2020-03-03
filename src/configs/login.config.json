@@ -1,5 +1,14 @@
 {
   "@openmrs/esm-login": {
+    "chooseLocation": {
+      "enabled": true
+    },
+    "links": {
+      "loginSuccess": {
+        "url": "/home",
+        "spa": true
+      }
+    },
     "logo": {
       "src": "https://ampath-poc.fra1.digitaloceanspaces.com/ampath.png",
       "alt": "Ampath Logo"
