@@ -1,6 +1,6 @@
 {
   "@openmrs/esm-patient-chart": {
-    "primaryNavBar": [
+    "primaryNavbar": [
       {
         "label": "Summary",
         "path": "/summary",
