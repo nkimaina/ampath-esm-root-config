@@ -57,18 +57,14 @@
         "widgets": [
           {
             "name": "todaysVisitWidget",
-            "label": "Visit",
             "esModule": "@ampath/esm-patient-chart-widgets",
-            "path": "/hiv-visit",
             "layout": {
               "columnSpan": 2
             }
           },
           {
             "name": "formsListWidget",
-            "label": "Forms",
             "esModule": "@ampath/esm-patient-chart-widgets",
-            "path": "/hiv-forms",
             "layout": {
               "columnSpan": 2
             }
