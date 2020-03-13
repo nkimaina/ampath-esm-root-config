@@ -8,7 +8,6 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     libraryTarget: "system"
   },
-  externals: ["single-spa"],
   devtool: "sourcemap",
   mode: "development",
   module: {
@@ -38,5 +37,10 @@ module.exports = {
     disableHostCheck: true
   },
   plugins: [new CleanWebpackPlugin()],
-  externals: ["single-spa", "i18next", "react-i18next", "@openmrs/esm-module-config"]
+  externals: [
+    "single-spa",
+    "i18next",
+    "react-i18next",
+    "@openmrs/esm-module-config"
+  ]
 };
