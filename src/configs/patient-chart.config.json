@@ -67,7 +67,8 @@
             "esModule": "@ampath/esm-patient-chart-widgets",
             "layout": {
               "columnSpan": 2
-            }
+            },
+            "usesSingleSpaContext": true
           },
           {
             "name": "hivLabSummaryWidget",
