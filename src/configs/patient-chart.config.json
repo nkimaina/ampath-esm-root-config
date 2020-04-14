@@ -9,37 +9,37 @@
       {
         "label": "Results",
         "path": "/results",
-        "view": "resultsOverviewDashboard"
+        "view": "resultsTabbedView"
       },
       {
         "label": "Orders",
         "path": "/orders",
-        "view": "ordersOverviewDashboard"
+        "view": "ordersTabbedView"
       },
       {
         "label": "Encounters",
         "path": "/encounters",
-        "view": "encountersOverviewDashboard"
+        "view": "encountersTabbedView"
       },
       {
         "label": "Conditions",
         "path": "/conditions",
-        "view": "conditionsOverview"
+        "view": "conditionsDashboard"
       },
       {
         "label": "Programs",
         "path": "/programs",
-        "view": "programsOverviewDashboard"
+        "view": "programsDashboard"
       },
       {
         "label": "Allergies",
         "path": "/allergies",
-        "view": "allergiesOverviewDashboard"
+        "view": "allergiesDashboard"
       },
       {
         "label": "Appointments",
         "path": "/appointments",
-        "view": "appointmentsOverviewDashboard"
+        "view": "appointmentsDashboard"
       },
       {
         "label": "HIV",
