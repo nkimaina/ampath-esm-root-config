@@ -63,19 +63,19 @@
             }
           },
           {
-            "name": "formsListWidget",
-            "esModule": "@ampath/esm-patient-chart-widgets",
-            "layout": {
-              "columnSpan": 2
-            },
-            "usesSingleSpaContext": true
-          },
-          {
             "name": "hivLabSummaryWidget",
             "esModule": "@ampath/esm-patient-chart-widgets",
             "layout": {
               "columnSpan": 2
             }
+          },
+          {
+            "name": "formEncounterNavigatorWidget",
+            "esModule": "@ampath/esm-patient-chart-widgets",
+            "layout": {
+              "columnSpan": 4
+            },
+            "usesSingleSpaContext": true
           }
         ]
       }
