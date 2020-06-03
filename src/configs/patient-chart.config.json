@@ -80,7 +80,7 @@
         ]
       }
     ],
-    "widgetsConfigs": {
+    "widgetCommonConfig": {
       "vitalsConfig": {
         "vitalsConcepts": {
           "SYSTOLIC_BLOOD_PRESSURE_CONCEPT": "a8a65d5a-1350-11df-a1f1-0026b9348838",
@@ -97,5 +97,6 @@
         }
       }
     }
-  }
+  },
+  "externalPatientChartConfigs": {}
 }
